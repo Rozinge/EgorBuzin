@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static System.Math;
 
-namespace LAB2
+namespace LAB3
 {
     class Figures
     {
