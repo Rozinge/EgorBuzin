@@ -1,6 +1,15 @@
-﻿using System;using System.Collections.Generic;using System.Linq;using System.Text;using System.Threading.Tasks;using System.Reflection;namespace Lab6_1{
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Reflection;
+
+namespace Lab6_1
+{
     
-    class Program    {
+    class Program
+    {
 
         delegate object Operation(int i, double d);
 
@@ -38,7 +47,8 @@
         }
 
 
-        static void Main(string[] args)        {
+        static void Main(string[] args)
+        {
             
             Console.WriteLine("Обычный делегат");
             object Result = MethodSum(4, 5.5, Sum);
@@ -60,4 +70,8 @@
             Console.WriteLine("Использование обобщенного делегата Action");
             MethodAction(16, 22.668, Act);
             
-        }    }}
+        }
+
+    }
+
+}
